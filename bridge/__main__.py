@@ -1,6 +1,8 @@
 import os
 from dotenv import load_dotenv
 from discordbridge import DiscordClient
+from . import constants
+constants.init()
 load_dotenv()
 
 # Run Discord Client
